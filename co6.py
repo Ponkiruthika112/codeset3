@@ -24,6 +24,8 @@ def mergesort(x):
 	return merge(a,b)
 n=int(input())
 x=list(map(int,input().split()))
+k=""
 g=mergesort(x)
 for i in range(0,n):
-	print(g[i],end=" ")
+	arr=k+str(g[i])+" "
+print(arr.rstrip())
