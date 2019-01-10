@@ -27,5 +27,5 @@ x=list(map(int,input().split()))
 k=""
 g=mergesort(x)
 for i in range(0,n):
-	arr=k+str(g[i])+" "
-print(arr.rstrip())
+	k=k+str(g[i])+" "
+print(k.rstrip())
