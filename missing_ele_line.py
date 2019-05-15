@@ -1,4 +1,5 @@
 # your code goes here
+# your code goes here
 a=input()
 b=input()
 if a.isdigit()==True and b.isdigit()==True:
@@ -22,6 +23,11 @@ for i in range(0,len(q)):
 		j=j+str(q[i][1])+" "
 	else:
 		y=y+str(q[i][1])+" "
-print(j.strip())
-print(y.strip())
+if len(j)==2:
+	print(y.strip())
+elif len(y)==2:
+	print(y.strip())
+else:
+	print(j.strip())
+	print(y.strip())
 #code
