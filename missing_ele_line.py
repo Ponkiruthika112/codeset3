@@ -26,7 +26,7 @@ for i in range(0,len(q)):
 if len(j)==2:
 	print(y.strip())
 elif len(y)==2:
-	print(y.strip())
+	print(j.strip())
 else:
 	print(j.strip())
 	print(y.strip())
