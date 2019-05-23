@@ -6,7 +6,8 @@ for i in range(0,n):
 s=0
 for i in range(0,n):
    for j in range(0,n):
-      if i==j:
+      if i+j==n-1:
          s=s+k[i][j]
 print(s)
 #diagnols
+#d
